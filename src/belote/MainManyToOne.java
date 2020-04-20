@@ -27,9 +27,9 @@ public class MainManyToOne {
             Carte carte = entityManager.find(Carte.class, 30);
             System.out.println(carte);
             
-//            //CartesToMain
-//            Carte carte2 = entityManager.find(Carte.class, 25);
-//            System.out.println(carte2);
+            //CartesToMain
+            Carte carte2 = entityManager.find(Carte.class, 25);
+            System.out.println(carte2);
             
             //EquipeToPartie
             Equipe equipe = entityManager.find(Equipe.class, 2);
